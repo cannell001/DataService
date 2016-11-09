@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<ul>
+  <li *ngFor="let item of myItems">
+  <my-item-component [artist]=item></my-item-component>
+  </li>
+</ul>
+s
